@@ -40,6 +40,8 @@ char *dup_chars(char *pathstr, int start, int stop)
 			buf[k++] = pathstr[i];
 	buf[k] = 0;
 	return (buf);
+}
+
 /**
  * find_path - finds this cmd in the PATH string
  * @info: the info struct
@@ -81,4 +83,4 @@ char *find_path(info_t *info, char *pathstr, char *cmd)
 		i++;
 	}
 	return (NULL);
-}}
+}

@@ -30,6 +30,7 @@ void ffree(char **pp)
 		free(*pp++);
 	free(a);
 }
+
 /**
  * _realloc - reallocates a block of memory
  * @ptr: pointer to previous malloc'ated block
